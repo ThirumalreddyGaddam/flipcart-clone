@@ -1,0 +1,33 @@
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between cards */
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  width: 200px; /* Specify a width for the cards */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  width: 100%; /* The image takes full width of the card */
+  height: auto; /* Keeps the aspect ratio */
+  border-radius: 5px; /* Rounded corners for the image */
+}
+
+.remove-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: darkred; /* Darker shade on hover */
+}

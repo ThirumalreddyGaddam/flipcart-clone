@@ -1,0 +1,27 @@
+.banner {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.banner h2, .banner p {
+  margin: 10px 0; /* Adjust margin for vertical spacing */
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.banner img:hover {
+  transform: scale(1.05);
+}

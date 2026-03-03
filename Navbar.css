@@ -1,0 +1,77 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #2874f0;
+    width: 100%;
+    color: white;
+}
+
+.fk-logo {
+    display: flex;
+    align-items: center;
+}
+
+.fk-main {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.fk-sub {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.fk-plus-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+}
+
+.search-bar button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #2874f0;
+    cursor: pointer;
+}
+
+.navbar-links {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    margin-left: 20px;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+}
+.cart-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
